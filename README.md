@@ -20,4 +20,4 @@ Basic Error Handling: Prevents common crash scenarios like invalid menu choices.
 
 # Getting Started
 Follow these steps to run the Task Manager application locally.
-Clone the Repository: 
+Clone the Repository: git clone https://github.com/DanialMyrzatayevMuratovich/Task-Manager.git
