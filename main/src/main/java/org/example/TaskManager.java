@@ -80,7 +80,7 @@ public class TaskManager {
                 String line = scanner.nextLine();
                 String[] parts = line.split("\\|");
                 if (parts.length == 4) {
-                    // Note: Task IDs are reset on load to avoid issues, but we load data
+
                     Task task = new Task(parts[1], Integer.parseInt(parts[2]));
                     task.setCompleted(Boolean.parseBoolean(parts[3]));
                     tasks.add(task);
